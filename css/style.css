@@ -15,45 +15,11 @@
 
 body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    height: 79px;
-    align-items: start;
-}
-
-.header-logo-wrapper {
-    display: flex;
-}
-
-.header-logo {
-    height: 19px;
-    margin: 30px 50px 30px 50px;
-}
-
-.header-menu-link-wrapper {
-    list-style-type: none;
-    display: flex;
-    gap: 68px;
-    padding-left: 0;
-    margin: 0 50px 0 50px;
-}
-
-.header-menu-link {
-    display: inline-block;
-    padding-top: 16px;
-    border-top: solid 2px transparent;
-}
-
-.header-menu-link:hover {
-    color: var(--main-color);
-    border-top: solid 2px var(--main-color);
-}
-
-.main-container {
+.container-global {
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
@@ -91,6 +57,44 @@ a {
 
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+/****** Header *****/
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 79px;
+    max-width: 1440px;
+    align-items: start;
+}
+
+.header-logo-wrapper {
+    display: flex;
+}
+
+.header-logo {
+    height: 19px;
+    margin: 30px 50px 30px 50px;
+}
+
+.header-menu-link-wrapper {
+    list-style-type: none;
+    display: flex;
+    gap: 68px;
+    padding-left: 0;
+    margin: 0 50px 0 50px;
+}
+
+.header-menu-link {
+    display: inline-block;
+    padding-top: 16px;
+    border-top: solid 2px transparent;
+}
+
+.header-menu-link:hover {
+    color: var(--main-color);
+    border-top: solid 2px var(--main-color);
 }
 
 /****** Hebergements And Populaires ***********/

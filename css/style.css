@@ -18,6 +18,45 @@ body {
     justify-content: center;
 }
 
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 79px;
+    align-items: start;
+}
+
+.header-logo-wrapper {
+    display: flex;
+    padding: 30px 50px 30px 50px;
+}
+
+.header-logo {
+    height: 19px;
+}
+
+.header-menu {
+    padding: 0px 50px 0px 50px;
+}
+
+.header-menu-link-wrapper {
+    list-style-type: none;
+    display: flex;
+    gap: 68px;
+    padding-left: 0;
+    margin: 0 0 0 0;
+}
+
+.header-menu-link {
+    display: inline-block;
+    padding-top: 16px;
+    border-top: solid 2px transparent;
+}
+
+.header-menu-link:hover {
+    color: var(--main-color);
+    border-top: solid 2px var(--main-color);
+}
+
 .main-container {
     width: 100%;
     max-width: 1440px;

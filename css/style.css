@@ -45,25 +45,25 @@ h1 {
 }
 
 p {
-font-weight: 400;
-font-size: 16px;
-line-height: 19px;
-margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    margin: 0;
 }
 
 h3 {
-font-weight: 700;
-font-size: 18px;
-line-height: 21px;
-margin-block-start: 0;
-margin-block-end: 0;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 
 .font-body-large-bold {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
-    }
+}
 
 .section-title {
     margin: 0;
@@ -91,6 +91,10 @@ margin-block-end: 0;
 
 .neutral-star {
     color: var(--main-bg-color)
+}
+
+.align-self-start {
+    align-self: flex-start;
 }
 
 /****** Header *****/
@@ -134,7 +138,7 @@ header {
 }
 
 /****** Section Info ******/
-.section-info{
+.section-info {
     display: flex;
     flex-direction: column;
     gap: 35px;
@@ -219,17 +223,17 @@ header {
 }
 
 .filter {
-display: flex;
-align-items: center;
-padding: 4px 19px;
-gap: 10px;
-background-color: transparent;
-border: 2px solid #D9D9D9;
-border-radius: 25px;
-height: 50px;
-font-weight: 700;
-font-size: 17px;
-line-height: 20px;
+    display: flex;
+    align-items: center;
+    padding: 4px 19px;
+    gap: 10px;
+    background-color: transparent;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
 }
 
 .filter:hover {
@@ -283,9 +287,6 @@ line-height: 20px;
     flex-direction: column;
     padding: 0px 0px 15px;
     gap: 4px;
-    background: #FFFFFF;
-    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
-    border-radius: 20px;
 }
 
 
@@ -350,8 +351,46 @@ line-height: 20px;
     margin-bottom: 5px;
 }
 
+/****** Activites **********/
+
+.activites {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 30px;
+}
+
+.activites-cards {
+    display: flex;
+    gap: 30px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.activites-cards a {
+    width: calc(100% / 4 - 22.5px);
+}
+
+.activites-cards .card {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
 
 
+.activites-cards img {
+    width: 100%;
+    height: 380px;
+    box-sizing: border-box;
+    border-radius: 20px 20px 0px 0px;
+    object-fit: cover
+}
+
+.activites-cards .card-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 19px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 

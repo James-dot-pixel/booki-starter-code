@@ -59,7 +59,7 @@ margin-block-start: 0;
 margin-block-end: 0;
 }
 
-.h3-style {
+.font-body-large-bold {
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
@@ -263,6 +263,19 @@ line-height: 20px;
     flex-direction: column;
     padding: 30px;
     gap: 30px;
+}
+
+.hebergements-cards {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 30px;
+    align-self: stretch;
+    flex-wrap: wrap;
+}
+
+.hebergements-cards a {
+    width: calc(100% / 3 - 20px);
 }
 
 .hebergements-cards .card {

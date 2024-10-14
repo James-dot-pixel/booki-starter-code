@@ -10,8 +10,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/style.css">
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./css/style.css">    
 </head>
 
 <body>
@@ -21,29 +21,54 @@
             </div>
             <nav>
                 <ul class="header-menu-link-wrapper">
-                    <li><a class="header-menu-link" href="#hebergements">Hébergements</a></li>
+                    <li><a class="header-menu-link-current" href="#hebergements">Hébergements</a></li>
                     <li><a class="header-menu-link" href="">Activités</a></li>
                 </ul>
             </nav>
         </header>
         <main class="container-global">
             <div class="section-info">
-                <section class="section-info-headline">
+                <div class="section-info-headline">
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre-ville ou en pleine nature</p>
-                </section>
-                <section class="search-bar-wrapper">
-                    <form class="search-bar" action="">
+                </div>
+                <div class="search-bar-wrapper">
+                    <form class="search-bar" action="/your-valid-url">
                         <div class="search-bar-icon-wrapper">
                             <img src="/images/icons/location.svg" alt="icône emplacement">
                         </div>
                         <input class="search-input" type="search" value="Marseille, France">
                         <button class="search-button" type="submit" >
                             <img class="search-button-icon" src="/images/icons/search.svg" alt="icône recherche">
-                            <p class="search-button-text">Rechercher</p>
+                            <span class="search-button-text">Rechercher</span>
                         </button>
                     </form>
-                </section>
+                </div>
+                <div class="filters-section">
+                    <div class="filters-bar">
+                        <p class="h3-style">Filtres</p>
+                        <button class="filter">
+                            <img src="/images/icons/price.svg" alt="icône billet de banque">
+                            Économique
+                        </button>
+                        <button class="filter">
+                            <img src="/images/icons/family.svg" alt="icône billet de banque">
+                            Familial
+                        </button>
+                        <button class="filter">
+                            <img src="/images/icons/romantic.svg" alt="icône billet de banque">
+                            Romantique
+                        </button>
+                        <button class="filter">
+                            <img src="/images/icons/fire.svg" alt="icône billet de banque">
+                            Nos pépites
+                        </button>
+                    </div>
+                    <div class="info-bar">
+                        <img src="/images/icons/info.svg" alt="icône info">
+                        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                    </div>
+                </div>
             </div>
             <div id="hebergements" class="hebergements-and-populaires">
                 <section class="hebergements">

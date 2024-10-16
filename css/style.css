@@ -138,7 +138,7 @@ header {
 
 .header-menu-link.current {
     color: var(--main-color);
-    border-color: solid 2px var(--main-color);
+    border-color: var(--main-color);
 }
 
 /****** Section Info ******/
@@ -527,7 +527,7 @@ footer {
 
     .header-menu-link.current {
         border-top: none;
-        border-color: solid 2px var(--main-color);
+        border-color: var(--main-color);
     }
 
     /* Section Info */

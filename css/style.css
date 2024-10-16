@@ -576,6 +576,7 @@ footer {
 
     .filter {
         width: calc(100% / 2 - 5px);
+        min-width: 167px;
         font-weight: 700;
         font-size: 14px;
         line-height: 16px;

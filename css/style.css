@@ -136,6 +136,11 @@ header {
     border-top: solid 2px transparent;
 }
 
+.header-menu-link:hover {
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+
 .header-menu-link.current {
     color: var(--main-color);
     border-color: var(--main-color);

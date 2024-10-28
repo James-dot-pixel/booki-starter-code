@@ -190,7 +190,7 @@ header {
     align-items: center;
     background-color: var(--main-bg-color);
     width: 50px;
-    height: 49px;
+    height: 47px;
     border: 1px solid var(--main-bg-color);
     border-radius: 15px 0 0 15px;
     position: absolute;
